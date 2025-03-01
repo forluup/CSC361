@@ -18,7 +18,6 @@ def check_http2_support(host, port=443):
         print(f"Error checking HTTP/2 support: {e}")
         return False
 
-
 def send_request(host, port, request):
     # send a request to the given host and port, and receive the response.
     try:
@@ -35,7 +34,6 @@ def send_request(host, port, request):
     except Exception as e:
         print(f"Error sending request: {e}")
         return None
-
 
 def fetch_https_response(host, path="/"):
     # fetch HTTPS response using SSL-wrapped socket, and handle redirects.
@@ -109,7 +107,6 @@ def extract_cookies(response):
         print(f"Error extracting cookies: {e}")
     return cookies
 
-
 def check_password_protection(response):
     # check if site is password protected from response
     try:
@@ -118,7 +115,6 @@ def check_password_protection(response):
     except Exception as e:
         print(f"Error checking password protection: {e}")
     return False
-
 
 def parse_url(url):
     # parse URL to get host and path
@@ -130,7 +126,6 @@ def parse_url(url):
     path = parsed.path if parsed.path else "/"
 
     return host, path
-
 
 def main():
     # ensure a URL is passed as argument

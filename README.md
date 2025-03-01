@@ -1,8 +1,8 @@
 # CSC361 - Computer Communications and Networks
 
----
+Course Outline: https://heat.csc.uvic.ca/coview/course/2025011/CSC361
 
-### Topics:
+### Topics Covered:
 
 - Introduction
   - Internet overview; Access network technologies: basics; Backbone network technologies and structures: basics; Network architectures, services and protocols
@@ -19,3 +19,5 @@
 
 - P1 - Web Tester
 - P2 - TCP Traffic Analysis
+
+---
